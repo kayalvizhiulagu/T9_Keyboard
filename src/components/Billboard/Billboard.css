@@ -1,0 +1,101 @@
+
+.billBoardConatiner {
+  margin:20px;
+  padding:20px;
+  
+}
+.carousel .slider-wrapper { 
+  height: 70vh;
+}
+.control-prev {
+  text-align: left;
+}
+.control-next {
+  text-align: right;
+}
+.carousel-slider {
+  width: 100vw; 
+  background-color: #fff;
+}
+.image-container {
+  position: relative;
+}
+.carousel.carousel-slider .control-arrow:hover {
+  background: rgba(247, 245, 245, 0.116);
+}
+.text-overlay {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  color:whitesmoke;
+  animation: blink 1s linear infinite;
+}
+.textContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  height: 50vh; 
+  
+}
+.video-controls {
+  text-align: bottom;
+
+}
+.textContainer {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+ 
+}
+
+.textContainer h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+  animation: blink 1s linear infinite;
+}
+
+.textContainer p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.textContainer .legend {
+  color: #999;
+  font-style: italic;
+}
+.carouselConatiner {
+   height: "50px";
+   background-color: #fff;
+}
+.textVideoOverlay {
+  position: absolute;
+  top: 20%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  color:whitesmoke;
+  animation: blink 1s linear infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+

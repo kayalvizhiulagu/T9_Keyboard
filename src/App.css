@@ -1,0 +1,25 @@
+
+.home-container {
+background-color: black;
+height: 48px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+ 
+}
+.inputBox {
+  width: 93%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin: 10px;
+}
+.inputBox:focus {
+  border-color: #007bff; 
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
